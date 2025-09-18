@@ -1,0 +1,77 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.header input {
+  width: 300px;
+  padding: 6px 10px;
+}
+.header select {
+  padding: 6px 10px;
+}
+.header button {
+  background-color:blue; 
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header-left {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Table */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}   
+
+/* img */
+.table img {
+  width: 60px;
+  height: 60px;
+   object-fit: cover;
+  border-radius: 50%;
+}
+
+/* status */
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  color: green;
+  background: #d4edda;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Button */
+.btn {
+  border: none;
+  padding: 4px 10px;
+  margin: 0 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-block {
+  background-color: orange;
+  color: white;
+}
+.btn-edit {
+  background-color:blue;
+  color: white;
+}
+.btn-delete {
+  background-color: red;
+  color: white;
+}
